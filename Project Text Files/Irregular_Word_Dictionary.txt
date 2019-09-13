@@ -1,0 +1,22 @@
+# This document contains the Irregular-Word dictionary for the Sciens system. Note that irregular form entries
+# are broken up with the comment symbol, #.
+#
+# Author: Stephen Bothwell
+# Last Updated: 12/2/2018
+# Version Number: 0.0.4
+#
+ego / mei / mihi / me / me / ego / nos / nostri / nobis / nos / nobis / nos: Pronoun<M/F>;; First-Person Personal
+#
+sum / es / est / sumus / estis / sunt
+eram / eras / erat / eramus / eratis / erant
+ero / eris / erit / erimus / eritis / erunt
+fui / fuisti / fuit / fuimus / fuistis / fuerunt
+fueram / fueras / fuerat / fueramus / fueratis / fuerant
+fuero / fueris / fuerit / fuerimus / fueritis / fuerint: Verb<>; Nominative; Copulative
+#
+tu / tui / tibi / te / te / tu / vos / vestri / vobis / vos / vobis / vos: Pronoun<M/F>;; Second-Person Personal
+#
+volo / vis / vult / volumus / vultis / volunt
+volabam / volabas / volabat / volabamus / volabatis / volabant
+volabo / volabis / volabit / volabimus / volabitis / volabunt: Verb<>; Accusative, Infinitive;
+#

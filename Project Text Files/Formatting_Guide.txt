@@ -1,0 +1,67 @@
+# This document will contain formatting information for the other documents. The formatting will be
+# standardized here such that the other documents can be edited and added to appropriately without
+# confusion.
+#
+# Author: Stephen Bothwell
+# Last Updated: 11/23/2018
+# Version Number: 0.0.5
+
+1. Regular Forms:
+    [ROOT]: [PoS_1], [PoS_2], ..., [PoS_N]; [PARADIGM_1.1]<GENDER>,
+    [PARADIGM_1.2]<GENDER_1>, ..., [PARADIGM_1.N]<GENDER_1> |
+    [PARADIGM_2.1]<GENDER_1> ... | [PARADIGM_N.1]<GENDER_1>;
+    [CONSTR_1.1], [CONSTR_1.2], ..., [CONSTR_1.N] | ... | [CONSTR_N.1], ..., [CONSTR_N.N]
+
+# The recognized vocabulary for parts of speech, paradigms, genders, and constructions is as follows:
+#   PoS:
+#   Paradigms: (Declensions) D1, D2.1, D2.2, D2.3
+#       These represent the first declension, "-us" second declension, "-er" second declension,
+#       and "-um" second declension, respectively. "D" stands for declension.
+#              (Conjugations) C1PresActInd, C1ImpfActInd, C1FutActInd, C1PerfActInd, C1PlupActInd, C1FtPrfActInd
+#               ... and so on. Variants include different conjugations (C2, C3, C4), different voices (Pass for
+#               Passive), and different moods (Subj for Subjunctive, Impr for Imperative). "C" stands for
+#               Conjugation.
+#   Genders: Masculine, Feminine, M/F (for Masculine or Feminine), M/N (for Masculine or Neuter)
+#   Constructions: Nominative (for Nominative Case), Genitive (for Genitive Case), Dative (for Dative Case)
+#       Accusative (for Accusative Case), Ablative (for Ablative Case), Vocative (for Vocative Case)
+
+2. Irregular Forms:
+    2.1. Nouns:
+        2.1.1. Declined Nouns:
+            [NOM_SING] / [GEN_SING] / ... / [ABL_PLUR] / [VOC_PLUR]: [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [GENDER]; [DESCRIPTOR]
+        2.2.2. Frozen Nouns:
+            [FORM]: [PoS]; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+
+    2.2. Verbs:
+        [PRES_1ST_SING_ACT_IND] / [PRES_2ND_SING_ACT_IND] / ... / [PRES_3RD_PLUR_ACT_IND]
+        [IMPF_1ST_SING_ACT_IND] / [IMPF_2ND_SING_ACT_IND] / ... / [IMPF_3RD_PLUR_ACT_IND]
+        [FUT_1ST_SING_ACT_IND] / ...
+        ...
+        [FUTPERF_1ST_SING_PASS_SUBJUNC] / [FUTPERF_2ND_SING_PASS_SUBJUNC] / ... / [FUTPERF_3RD_PLUR_PASS_SUBJUNC]
+        [PRES_SING_ACT_IMPER] / [PRES_PLUR_ACT_IMPER]
+        [PRES_SING_PASS_IMPER] / [PRES_PLUR_PASS_IMPER]:
+        [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+
+# Note that verbs will be read up until the colon and will be read in order of: indicative system active,
+# indicative system passive, subjunctive system active, subjunctive system passive,
+# imperative system active, imperative system passive. Not all of them need to be listed.
+
+    2.3. Adjectives:
+        [NOM_SING_1] / [GEN_SING_1] / ... / [ABL_PLUR_1] / [VOC_PLUR_1]
+        [NOM_SING_2] / [GEN_SING_2] / ... / [ABL_PLUR_2] / [VOC_PLUR_2]
+        ...
+        [NOM_SING_N] / [GEN_SING_N] / ... / [ABL_PLUR_N] / [VOC_PLUR_N]: [PoS]<[GENDER_1], [GENDER_2], ..., [GENDER_N]>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+    2.4. Adverbs:
+        2.4.1. Full Listing:
+            [POSITIVE] / [COMPARATIVE] / [SUPERLATIVE]: [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+        2.4.2. Partial Listing:
+            [POSITIVE]: [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+            [COMPARATIVE]: [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+            [SUPERLATIVE]: [PoS]<>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+    2.5. Pronouns:
+        [NOM_SING_1] / [GEN_SING_1] / ... / [ABL_PLUR_1] / [VOC_PLUR_1]
+        [NOM_SING_2] / [GEN_SING_2] / ... / [ABL_PLUR_2] / [VOC_PLUR_2]
+        ...
+        [NOM_SING_N] / [GEN_SING_N] / ... / [ABL_PLUR_N] / [VOC_PLUR_N]: [PoS]<[GENDER_1], [GENDER_2], ..., [GENDER_N]>; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]
+    2.6. Prepositions, Conjunctions, and Particles:
+        [WORD]: [PoS]; [CONSTR_1], [CONSTR_2], ..., [CONSTR_N]; [DESCRIPTOR]

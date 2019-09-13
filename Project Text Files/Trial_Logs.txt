@@ -1,0 +1,5 @@
+# This document contains trial logs from test runs of the system which I have built.
+#
+# Author: Stephen Bothwell
+# Last Updated: 10/14/2018
+# Version Number: 0.0.1

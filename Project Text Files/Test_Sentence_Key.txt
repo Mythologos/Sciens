@@ -1,0 +1,540 @@
+# This document holds the test sentences and the answers for their grammatical constructions.
+#
+# Currently, I have supplied it with sentences from some chapters in Wheelock that I have picked out. The ones that I have not
+# included consist of constructions that I do not intend to implement right away (as they have tended to introduce some forms or 
+# uses early that will later make up a composite whole). I have included what would appear to be the correct grammar, syntactically
+# and semantically, for each word and for the sentence as a whole. Of course, it is currently a rough answer key, as I have not standardized
+# neither the storage nor the printing format. However, this answer key will give me a good start in considering these things.
+#
+# Author: Stephen Bothwell
+# Last Updated: 10/20/2018
+# Version Number: 0.5.0
+
+Wheelock, Chapter I:
+	3. Festina lente.
+		Festina: 2nd, Singular, Present, Active, Imperative Verb; Intransitive, Implicit Subject
+		Lente: Positive Adverb	
+
+	4. Laudas me; culpant me.
+		Laudas: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Me: Accusative, Singular, M/F Noun; Direct Object
+		Culpant: 3rd, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Me: Accusative, Singular, M/F Noun; Direct Object
+	
+	5. Saepe peccamus.
+		Saepe: Positive Adverb.
+		Peccamus: 3rd, Plural, Present, Active, Indicative Verb; Intransitive, Implicit Subject
+	
+	7. Conservate me!
+		Conservate: 2nd, Plural, Present, Active, Imperative Verb; Transitive, Implicit Subject 
+		Me: Accusative, Singular, M/F Noun; Direct Object
+	
+	9. Me non amat.
+		Me: Accusative, Singular, M/F Noun; Direct Object
+		Non: Negating Particle
+		Amat: 3rd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+	
+	10. Nihil me terret.
+		Nihil: Frozen Form; Nominative; Subject
+		Me: Accusative, Singular, M/F Noun; Direct Object
+		Terret: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+	
+	13. Saepe nihil cogitas.
+		Saepe: Positive Adverb
+		Nihil: Frozen Form; Accusative; Direct Object
+		Cogitas: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+
+Wheelock, Chapter II:
+	1. Salve, O patria!
+		Salve: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		O: Vocative Particle
+		Patria: Vocative, Singular, Feminine Noun; Direct Address
+	
+	2. Fama et sententia volant.
+		Fama: Nominative, Singular, Feminine Noun; Subject 
+		Et: Copulative Conjunction
+		Sententia: Nominative, Singular, Feminine Noun; Subject
+		Volant: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+	
+	3. Da veniam puellae, amabo te.
+		Da: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		Veniam: Accusative, Singular, Feminine Noun; Direct Object
+		Puellae: Dative, Singular, Feminine Noun; Indirect Object
+		Amabo: 1st, Singular, Future, Active, Indicative Verb; Transitive, Implicit Subject
+		Te: Accusative, Singular, M/F Noun; Direct Object
+		
+	4. Clementia tua multas vitas servat.
+		Clementia: Nominative, Singular, Feminine Noun; Subject 
+		Tua: Nominative, Singular, Feminine Noun; Modifying Subject 
+		Multas: Accusative, Plural, Feminine Adjective; Modifying Direct Object
+		Vitas: Accusative, Plural, Feminine Noun; Direct Object
+		Servat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+	5. Multam pecuniam deportat.
+		Multam: Accusative, Singular, Feminine Adjective; Modifying Direct Object 
+		Pecuniam: Accusative, Singular, Feminine Adjective; Direct Object
+		Deportat: 3rd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+	
+	6. Et fortunam et vitam antiquae patriae saepe laudas sed recusas.
+		Et: Copulative Conjunction
+		Fortunam: Accusative, Singular, Feminine Noun; Direct Object 
+		Et: Copulative Conjunction
+		Vitam: Accusative, Singular, Feminine Noun; Direct Object
+		Antiquae: Genitive, Singular, Feminine Adjective; Modifying Possessive Genitive 
+		Patriae: Genitive, Singular, Feminine Noun; Possessive Genitive (of Fortunam and Vitam)
+		Saepe: Positive Adverb
+		Laudas: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Sed: Adversative Conjunction 
+		Recusas: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+	
+	7. Me vitare turbam iubes.
+		Me: Accusative, Singular, M/F Noun; Direct Object (of Iubes) 
+		Vitare: Present, Active, Infinitive Verb; Transitive, Complementary Infinitive
+		Turbam: Accusative, Singular, Feminine Noun; Direct Object (of Vitare)
+		Iubes: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject 
+		
+	8. Me philosophiae do.
+		Me: Accusative, Singular, Feminine Noun; Direct Object 
+		Philosophiae: Dative, Singular, Feminine Noun; Indirect Object 
+		Do: 1st, Singular, Present, Active, Indicative; Transitive, Implicit Subject 
+		
+	10. Sanam formam vitae conservate.
+		Sanam: Accusative, Singular, Feminine Adjective; Modifying Direct Object  
+		Formam: Accusative, Singular, Feminine Noun; Direct Object 
+		Vitae: Genitive, Singular, Feminine Noun; Possessive Genitive
+		Conservate: 2nd, Plural, Present, Active, Imperative Verb; Transitive, Implicit Subject
+	
+	11. Immodica ira creat insaniam.
+		Immodica: Nominative, Singular, Feminine Adjective; Modifying Subject
+		Ira: Nominative, Singular, Feminine Noun; Subject 
+		Creat: 3rd, Singular, Present, Active, Indicative Verb; Transitive 
+		Insaniam: Accusative, Singular, Feminine Noun; Direct Object
+		
+	13. Nulla avaritia sine poena est.
+		Nulla: Nominative, Singular, Feminine Adjective; Modifying Subject
+		Avaritia: Nominative, Singular, Feminine Noun; Subject
+		Sine: Preposition; Takes Ablative
+		Poena: Ablative, Singular, Feminine Noun; Object of Preposition "Sine"
+		Est: 3rd, Singular, Present, Active, Indicative; Linking 
+		
+	14. Me saevis catenis onerat.
+		Me: Accusative, Singular, Feminine Noun; Direct Object
+		Saevis: Ablative, Singular, Feminine Adjective; Modifying Ablative of Means
+		Catenis: Ablative, Singular, Feminine Noun; Ablative of Means
+		Onerat: 3rd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		
+	15. Rotam fortunae non timent.
+		Rotam: Accusative, Singular, Feminine Noun; Direct Object 
+		Fortunae: Genitive, Singular, Feminine; Possessive Genitive
+		Non: Negating Particle
+		Timent: 3rd, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		
+Wheelock, Chapter III:
+	Exercitationes
+		1. Filium nautae Romani in agris videmus.
+		Filium: Accusative, Singular, Masculine Noun; Direct Object 
+		Nautae: Genitive, Singular, Masculine Noun; Possessive Genitive
+		Romani: Genitive, Singular, Masculine Adjective; Modifying Posessive Genitive
+		In: Preposition; Takes Ablative
+		Agris: Ablative, Plural, Masculine Noun; Object of Preposition "In"
+		Videmus: 1st, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		
+		2. Pueri puellas hodie vocant.
+		Pueri: Nominative, Plural, Masculine Noun; Subject
+		Puellas: Accusative, Plural, Feminine Noun; Direct Object
+		Hodie: Adverb
+		Vocant: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+		
+		3. Sapientiam amicarum tuarum, O filia mea, semper laudat.
+		Sapientam: Accusative, Singular, Feminine Noun; Direct Object
+		Amicarum: Genitive, Plural, Feminine Noun; Possessive Genitive
+		Tuarum: Genitive, Plural, Feminine Adjective;
+		O: Vocative Particle
+		Filia: Vocative, Singular, Feminine Noun; Direct Address
+		Mea: Vocative, Singular, Adjective Adjective; Modifying Direct Address
+		Semper: Adverb
+		Laudat: 3rd, Singular, Present, Active, Indicative; Transitive, Implicit Subject
+		
+		4. Multi viri et feminae philosophiam antiquam conservant.
+		Multi: Nominative, Plural, Masculine Noun; Modifying Subject 
+		Viri: Nominative, Plural, Masculine Noun; Subject
+		Et: Copulative Conjunction
+		Feminae: Nominative, Plural, Feminine Noun; Subject
+		Philosophiam: Accusative, Singular, Feminine Noun; Direct Object
+		Antiquam: Accusative, Singular, Feminine Adjective; Modifying Direct Object
+		Conservant: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+		
+		6. Fortuna viros magnos amat.
+		Fortuna: Nominative, Singular, Feminine Noun; Subject
+		Viros: Accusative, Plural, Masculine Noun; Direct Object
+		Magnos: Accusative, Plural, Masculine Adjective; Modifying Direct Object
+		Amat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+	Sententiae Antiquae
+		1. Debetis, amici, de populo Romano cogitare.
+		Debetis: 2nd, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Amici: Nominative, Plural, Masculine Noun; Subject
+		De: Preposition; Takes Ablative
+		Populo: Ablative, Singular, Masculine Noun; Object of Preposition "De"
+		Romano: Ablative, Singular, Masculine Adjective; Modifying Object of Preposition "De"
+		Cogitare: Present, Active, Infinitive Verb; Transitive, Complementary Infinitive
+		
+		2. Maecenas, amicus Augusti, me in numero amicorum habet.
+		Maecenas: Nominative, Singular, Masculine Noun; Subject
+		Amicus: Nominative, Singular, Masculine Noun; Appositive to Subject
+		Augusti: Genitive, Singular, Masculine Noun; Genitive of Description
+		Me: Accusative, Singular, M/F Noun; Direct Object
+		In: Preposition; Takes Ablative
+		Numero: Ablative, Singular, Masculine Noun; Object of Preposition "In"
+		Amicorum: Genitive, Plural, Masculine Noun; Partitive Genitive
+		Habet: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		3. Libellus meus et sententiae meae vitas virorum monent.
+		Libellus: Nominative, Singular, Masculine Noun; Subject
+		Meus: Nominative, Singular, Masculine Adjective; Modifying Subject
+		Et: Copulative Conjunction
+		Sententiae: Nominative, Plural, Feminine Noun; Subject
+		Meae: Nominative, Plural, Feminine Adjective; Modifying Subject
+		Vitas: Accusative, Plural, Feminine Noun; Direct Object
+		Virorum: Genitive, Plural, Masculine Noun; Possessive Genitive
+		Monent: 3rd, Plural, Present, Active, Indicative Verb; Transitive 
+		
+		4. Pauci viri sapientiae student.
+		Pauci: Nominative, Plural, Masculine Adjective; Modifying Subject
+		Viri: Nominative, Plural, Masculine Noun; Subject
+		Sapientiae: Genitive, Singular, Feminine Noun; Objective Genitive 
+		Student: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+		
+		5. Fortuna adversa virum magnae sapientiae non terret.
+		Fortuna: Nominative, Feminine, Singular Noun; Subject
+		Adversa: Nominative, Feminine, Singular Adjective; Modifying Subject
+		Virum: Accusative, Masculine, Singular Noun; Direct Object
+		Magnae: Genitive, Feminine, Singular Adjective; Modifying Genitive of Description
+		Sapientiae: Genitive, Feminine, Singular Noun; Genitive of Description
+		Non: Negating Particle
+		Terret: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		7. Semper avarus eget.
+		Semper: Adverb
+		Avarus: Nominative, Masculine, Singular Adjective; Subject, Substantive
+		Eget: 3rd, Singular, Present, Active, Indicative Verb; Intransitive
+		
+		8. Nulla copia pecuniae avarum virum satiat.
+		Nulla: Nominative, Feminine, Singular Adjective; Modifying Subject
+		Copia: Nominative, Feminine, Singular Noun; Subject
+		Pecuniae: Genitive, Feminine, Singular Adjective; Objective Genitive
+		Avarum: Accusative, Masculine, Singular Adjective; Modifying Direct Object, Takes Genitive
+		Virum: Accusative, Masculine, Singular Noun; Direct Object
+		Satiat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		9. Pecunia avarum irritat, non satiat.
+		Pecunia: Nominative, Feminine, Singular Noun; Subject
+		Avarum: Accusative, Masculine, Singular Adjective; Direct Object, Substantive
+		Irritat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		Non: Negating Particle
+		Satiat: 3rd, Singular, Present, Active, Indicative Verb; Transitive # special case: object is in a different clause (but is implied in this clause)
+		
+		10. Secrete amicos admone; lauda palam.
+		Secrete: Positive Adverb
+		Amicos: Accusative, Masculine, Plural Noun; Direct Object
+		Admone: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		Lauda: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject # a similar special case to the above
+		Palam: Positive Adverb
+		
+		11. Modum tenere debemus.
+		Modum: Accusative, Masculine, Singular Noun; Direct Object
+		Tenere: Present, Active, Infinitive Verb; Transitive, Complementary Infinitive
+		Debemus: 1st, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+
+Wheelock, Chapter IV:
+	Exercitationes
+		1. Otium est bonum, sed otium multorum est parvum.
+		Otium: Nominative, Neuter, Singular Noun; Subject
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Bonum: Nominative, Neuter, Singular Adjective; Predicate Adjective
+		Sed: Adversative Conjunction
+		Otium: Nominative, Neuter, Singular Noun; Subject
+		Multorum: Genitive, M/N, Plural Noun; Possessive Genitive
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Parvum: Nominative, Neuter, Singular Adjective; Predicate Adjective
+		
+		2. Bella sunt mala et multa pericula habent.
+		Bella: Nominative, Neuter, Plural Noun; Subject
+		Sunt: 3rd, Plural, Present, Active, Indicative Verb; Linking
+		Mala: Nominative, Neuter, Plural Adjective; Predicate Adjective
+		Et: Copulative Conjunction
+		Multa: Nominative, Neuter, Plural Adjective; Modifying Direct Object
+		Pericula: Accusative, Neuter, Plural Noun; Direct Object
+		Habent: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+		
+		3. Officium nautam de otio hodie vocat.
+		Officium: Nominative
+		Nautam: Accusative, Masculine, Plural Adjective;
+		De: Preposition; Takes Ablative
+		Otio: Ablative, Neuter, Singular Noun; Object of Preposition "De"
+		Hodie: Adverb
+		Vocat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		6. Puellae magistram de consilio malo sine mora monent.
+		Puellae: Nominative, Feminine, Plural Noun; Subject
+		Magistram: Accusative, Feminine, Singular Noun; Direct Object
+		De: Preposition; Takes Ablative
+		Consilio: Ablative, Neuter, Singular Noun; Object of Preposition "De"
+		Malo: Ablative, Neuter, Singular Adjective; Modifying Object of Preposition "De"
+		Sine: Preposition; Takes Ablative
+		Mora: Ablative, Feminine, Singular Noun; Object of Preposition "Sine"
+		Monent: 3rd, Plural, Present, Active, Indicative Verb; Transitive
+		
+		7. O magne poeta, sumus veri amici; me iuva, amabo te!
+		O: Vocative Particle
+		Magne: Vocative, Masculine, Singular Adjective; Direct Address
+		Poeta: Vocative, Masculine, Singular Noun; Direct Address
+		Sumus: 1st, Plural, Present, Active, Indicative Verb; Linking, Implicit Subject
+		Veri: Nominative, Masculine, Plural Adjective; Modifying Predicate Nominative
+		Amici: Nominative, Masculine, Plural Noun; Predicate Nominative
+		Me: Accusative, M/F, Singular Noun; Direct Object
+		Iuva: 2nd, Plural, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		Amabo: 1st, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Te: Accusative, M/F, Singular Noun; Direct Object
+		
+		8. Femina et agros et portam agricolae videt.
+		Femina: Nominative, Feminine, Singular Noun; Subject
+		Et: Copulative Conjunction
+		Agros: Accusative, Masculine, Plural Noun; Direct Object
+		Et: Copulative Conjunction
+		Portam: Accusative, Masculine, Singular Noun; Direct Object
+		Agricolae: Genitive, Masculine, Singular; Possessive Genitive
+		Videt: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+	
+	Sententiae Antiquae
+		1. Fortuna caeca est.
+		Fortuna: Nominative, Feminine, Singular Noun; Subject
+		Caeca: Nominative, Feminine, Singular Adjective; Predicate Adjective
+		Est: 3rd, Singular, Present, Active Indicative Verb; Linking
+		
+		3. Salve, O amice; vir bonus es.
+		Salve: 2nd, Singular, Present, Active, Imperative Verb; Intransitive, Implicit Subject
+		O: Vocative Particle
+		Amice: Vocative, Masculine, Singular Noun; Direct Address
+		Vir: Nominative, Masculine, Singular Noun; Predicate Nominative 
+		Bonus: Nominative, Masculine, Singular Adjective; Modifying Predicate Nominative
+		Es: 2nd, Singular, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		
+		4. Non bella est fama filii tui.
+		Non: Negating Particle
+		Bella: Nominative, Neuter, Plural Adjective 
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Fama: Nominative, Feminine, Singular Noun; Predicate Nominative
+		Filii: Genitive, Masculine, Singular Noun; Possessive Genitive
+		Tui: Genitive, Masculine, Singular Adjective; Modifying Possessive Genitive 
+		
+		5. Errare est humanum.
+		Errare: Present, Active, Infinitive Verb; Subjective Infinitive
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Humanum: Nominative, Neuter, Singular Adjective; Predicate Adjective
+		
+		6. Nihil est omnino beatum.
+		Nihil: Nominative, Neuter, Singular Noun; Subject
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Omnino: Adverb
+		Beatum: Nominative, Neuter, Singular Adjective; Predicate Adjective
+		
+		7. Remedium irae est mora.
+		Remedium: Nominative, Neuter, Singular Noun; Subject
+		Irae: Genitive, Feminine, Singular Noun; Objective Genitive
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Mora: Nominative, Feminine, Singular Noun; Predicate Nominative
+		
+		9. Magistri parvis pueris crustula et dona saepe dant.
+		Magistri: Nominative, Masculine, Plural Noun; Subject
+		Parvis: Dative, Masculine, Plural Adjective; Modifying Indirect Object
+		Pueris: Dative, Masculine, Plural Noun; Indirect Object
+		Crustula: Accusative, Neuter, Plural Noun; Direct Object
+		Et: Copulative Conjunction
+		Dona: Accusative, Neuter, Plural Noun; Direct Object
+		Saepe: Adverb
+		Dant: 3rd, Plural, Present, Active, Indicative; Transitive
+		
+		12. Infinitus est numerus stultorum.
+		Infinitus: Nominative, Masculine, Singular Adjective; Predicate Adjective
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Numerus: Nominative, Masculine, Singular Noun; Subject
+		Stultorum: Genitive, Masculine, Plural Noun; Partitive Genitive
+		
+		13. Officium me vocat.
+		Officium: Nominative, Neuter, Singular Noun; Subject
+		Me: Accusative, M/F, Singular Noun; Direct Object
+		Vocat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		14. Mali sunt in nostro numero et de exitio bonorum virorum cogitant. Bonos adiuvate; conservate patriam et populum Romanum.
+		Mali: Nominative, Plural, Masculine Noun; Subject, Substantive
+		Sunt: 3rd, Plural, Present, Active, Indicative; Linking / Existential # both could work...
+		In: Preposition; Takes Accusative or Ablative
+		Nostro: Ablative, Masculine, Singular; Modifying Object of Preposition "In"
+		Numero: Ablative, Masculine, Singular; Object of Preposition "In"
+		Et: Copulative Conjunction
+		De: Preposition; Takes Ablative
+		Exitio: Ablative, Neuter, Singular; Object of Preposition "De"
+		Bonorum: Genitive, Masculine, Plural Adjective; Modifying Objective Genitive
+		Virorum: Genitive, Masculine, Plural Noun; Objective Genitive
+		Cogitant: 3rd, Plural, Present, Active, Indicative; Transitive
+		Bonos: Accusative, Plural, Masculine Noun; Subject, Substantive
+		Adiuvate: 2nd, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Conservate: 2nd, Plural, Present, Active, Indicative Verb; Transitive, Implicit Subject
+		Patriam: Accusative, Feminine, Singular Noun; Direct Object
+		Et: Copulative Conjunction
+		Populum: Accusative, Masculine, Singular Noun; Direct Object
+		Romanum: Accusative, Masculine, Singular Adjective Modifying Direct Object
+		
+Wheelock, Chapter V:
+	Exercitationes
+		1. Officium liberos viros semper vocabat.
+		Officium: Nominative, Masculine, Singular Noun; Subject
+		Liberos: Accusative, Masculine, Plural Adjective; Direct Object 
+		Viros: Accusative, Masculine, Plural Adjective; Direct Object
+		Semper: Adverb
+		Vocabat: 3rd, Singular, Imperfect, Active, Indicative Verb; Transitive
+		
+		3. Pericula belli non sunt parva, sed patria tua te vocabit et agricolae adiuvabunt.
+		Pericula: Nominative, Neuter, Plural Noun; Subject
+		Belli: Genitive, Neuter, Singular Noun; Possessive Genitive
+		Non: Negating Particle
+		Sunt: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Parva: Nominative, Neuter, Plural Adjective; Predicate Adjective
+		Sed: Adversative Conjunction
+		Patria: Nominative, Feminine, Singular Noun; Subject
+		Tua: Nominative, Feminine, Singular Adjective; Modifying Subject
+		Te: Accusative, M/F, Singular Noun; Direct Object
+		Vocabit: 3rd, Singular, Future, Active, Indicative Verb; 
+		Et: Copulative Conjunction
+		Agricolae: Nominative, Masculine, Plural Noun; Subject
+		Adiuvabunt: 3rd, Plural, Future, Active, Indicative Verb; Transitive 
+		
+		4. Propter culpas malorum patria nostra non valebit.
+		Propter: Preposition; Takes Accusative
+		Culpas: Accusative, Feminine, Plural Noun; Object of Preposition "Propter"
+		Malorum: Genitive, M/N, Plural Adjective; Objective Genitive, Substantive
+		Patria: Nominative, Feminine, Singular Noun; Subject
+		Nostra: Nominative, Feminine, Singular Adjective; Modifying Subject
+		Non: Negating Particle
+		Valebit: 3rd, Singular, Future, Active, Indicative Verb; Transitive
+		
+		5. Mora animos nostros superabat et remedium non habebamus.
+		Mora: Nominative, Feminine, Singular Noun; Subject
+		Animos: Accusative, Masculine, Plural Noun; Direct Object
+		Nostros: Accusative, Masculine, Plural Noun; Modifying Direct Object
+		Superabat: 3rd, Singular, Imperfect, Active, Indicative Verb; Transitive
+		Et: Copulative Conjunction
+		Remedium: Accusative, Neuter, Singular Noun; Direct Object
+		Non: Negating Particle
+		Habebamus: 1st, Plural, Imperfect, Active, Indicative Verb; Transitive
+		
+		6. Multi in agris heri manebant et Romanos iuvabant.
+		Multi: Nominative, Masculine, Plural Noun; Subject
+		In: Preposition; Takes Ablative
+		Agris: Ablative, Masculine, Plural Noun; Object of Preposition "In" 
+		Heri: Adverb
+		Manebant: 3rd, Plural, Imperfect, Active, Indicative Verb; Transitive 
+		Et: Copulative Conjunction
+		Romanos: Accusative, Masculine, Plural Noun; Direct Object
+		Iuvabant: 3rd, Plural, Imperfect, Active, Indicative Verb; Transitive
+		
+		7. Pauci viri de cura animi cogitabant.
+		Pauci: Nominative, Masculine, Plural Adjective; Modifying Subject 
+		Viri: Nominative, Masculine, Plural Noun; Subject
+		De: Preposition; Takes Ablative
+		Cura: Ablative, Feminine, Singular Noun; Object of Preposition "De"
+		Animi: Genitive, Masculine, Singular Noun; Objective Genitive
+		Cogitabant: 3rd, Plural, Imperfect, Active, Indicative Verb; Transitive
+		
+		8. Propter iram in culpa estis et cras poenas dabitis.
+		Propter: Preposition; Takes Accusative
+		Iram: Accusative, Feminine, Singular Noun; Object of Preposition "Propter"
+		In: Preposition; Takes Ablative
+		Culpa: Accusative, Feminine, Singular Noun; Object of Preposition "In"
+		Estis: 2nd, Plural, Present, Active, Indicative Verb; Linking, Implicit Subject
+		Et: Copulative Conjunction
+		Cras: Adverb
+		Poenas: Accusative, Feminine, Plural Noun; Direct Object
+		Dabitis: 2nd, Plural, Future, Active, Indicative Verb; Transitive, Implicit Subject
+
+		9. Verum otium non habes, vir stulte!
+		Verum: Accusative, Neuter, Singular Adjective; Modifying Direct Object
+		Otium: Accusative, Neuter, Singular Noun; Direct Object
+		Non: Negating Particle
+		Habes: 2nd, Singular, Present, Active, Indicative Verb; Transitive
+		Vir: Vocative, Masculine, Singular Noun; Direct Address
+		Stulte: Vocative, Masculine, Singular Adjective; Modifying Direct Address
+	
+	Sententiae Antiquae
+		1. Invidiam populi Romani cras non sustinebis.
+		Invidiam: Accusative, Feminine, Singular Noun; Direct Object
+		Populi: Nominative, Masculine, Plural Noun; Subject
+		Romani: Nominative, Masculine, Plural Adjective; Modifying Subject
+		Cras: Adverb
+		Non: Negating Particle
+		Sustinebis: 2nd, Singular, Future, Active, Indicative Verb; Transitive, Implicit Subject
+		
+		3. Angustus animus pecuniam amat.
+		Angustus: Nominative, Masculine, Singular Adjective; Modifying Subject 
+		Animus: Nominative, Masculine, Singular Noun; Subject
+		Pecuniam: Accusative, Feminine, Singular Noun; Direct Object
+		Amat: 3rd, Singular, Present, Active, Indicative Verb; Transitive
+		
+		4. Supera animos et iram tuam.
+		Supera: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		Animos: Accusative, Masculine, Plural Noun; Direct Object
+		Et: Copulative Conjunction
+		Iram: Accusative, Feminine, Singular Noun; Direct Object
+		Tuam: Accusative, Feminine, Singular Adjective; Direct Object
+		
+		5. Culpa est mea, O amici.
+		Culpa: Nominative, Feminine, Singular Noun; Subject
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Mea: Nominative, Feminine, Singular Adjective; Predicate Adjective
+		O: Vocative Particle
+		Amici: Vocative, Masculine, Plural Noun; Direct Address
+		
+		7. Propter adulescentiam, filii mei, mala vitae non videbatis.
+		Propter: Preposition; Takes Accusative
+		Adulescentiam: Accusative, Feminine, Singular Noun; Object of Preposition "Propter"
+		Filii: Genitive, Masculine, Singular Noun; Possessive Genitive
+		Mei: Genitive, Masculine, Singular Adjective; Modifying Possessive Genitive
+		Mala: Accusative, Neuter, Plural Noun; Direct Object
+		Vitae: Genitive, Feminine, Singular Noun; Possessive Genitive
+		Non: Negating Particle
+		Videbatis: 2nd, Plural, Imperfect, Active, Indicative Verb; Transitive, Implicit Subject 
+		
+		8. Amabo te, cura filiam meam.
+		Amabo: 1st, Singular, Future, Active, Indicative Verb; Transitive, Implicit Subject
+		Te: Accusative, M/F, Singular Noun; Direct Object
+		Cura: 2nd, Singular, Present, Active, Imperative Verb; Transitive, Implicit Subject
+		Filiam: Accusative, Feminine, Singular Noun; Direct Object
+		Meam: Accusative, Feminine, Singular Adjective; Modifying Direct Object
+		
+		9. Vita humana est supplicium.
+		Vita: Nominative, Feminine, Singular Noun; Subject 
+		Humana: Nominative, Feminine, Singular Adjective; Modifying Subject
+		Est: 3rd, Singular, Present, Active, Indicative Verb; Linking
+		Supplicium: Nominative, Neuter, Singular Noun; Predicate Nominative
+		
+		12. Semper gloria et fama tua manebunt.
+		Semper: Adverb
+		Gloria: Nominative, Feminine, Singular Noun; Subject
+		Et: Copulative Conjunction
+		Fama: Nominative, Feminine, Singular Noun; Subject
+		Tua: Nominative, Feminine, Singular Noun; Modifying Subject
+		Manebunt: 3rd, Plural, Future, Active, Indicative Verb; Intransitive
+		
+		13. Vir bonus et peritus aspera verba poetarum culpabit.
+		Vir: Nominative, Masculine, Singular Noun; Subject
+		Bonus: Nominative, Masculine, Singular Adjective; Modifying Subject
+		Et: Copulative Conjunction
+		Peritus: Nominative, Masculine, Singular Adjective; Modifying Subject
+		Aspera: Accusative, Neuter, Plural Adjective; Modifying Direct Object
+		Verba: Accusative, Neuter, Plural Noun; Direct Object
+		Poetarum: Genitive, Feminine, Plural Noun; Possessive Genitive
+		Culpabit: 3rd, Singular, Future, Active, Indicative Verb; Transitive
+		
+Wheelock, Chapter VI:
+	...

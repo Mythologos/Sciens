@@ -1,0 +1,44 @@
+# This document contains the Frozen-Word dictionary for the system which I have built.
+#
+# Author: Stephen Bothwell
+# Last Updated: 12/11/2018
+# Version Number: 0.0.8
+a: Preposition; Ablative;
+ab: Preposition; Ablative;
+abs: Preposition; Ablative;
+ad: Preposition; Accusative;
+ante: Preposition; Accusative;
+apud: Preposition; Accusative;
+circum: Preposition; Accusative;
+contra: Preposition; Accusative;
+cras: Adverb;; Positive
+cum: Preposition; Ablative;
+# The above isn't just a preposition; it has many complicated constructions! This won't be expressed, for now.
+de: Preposition; Ablative;
+et: Conjunction; Equivalence; Copulative
+heri: Adverb;; Positive
+hodie: Adverb;; Positive
+igitur: Conjunction;; Illative;
+in: Preposition; Accusative, Ablative;
+inter: Preposition; Accusative;
+intra: Preposition; Accusative;
+nihil: Noun;;
+non: Adverb;; Negative
+o: Particle; Vocative; Vocative
+ob: Preposition; Accusative;
+omnino: Adverb;; Positive
+per: Preposition; Accusative;
+post: Preposition; Accusative;
+prae: Preposition; Ablative;
+praeter: Preposition; Accusative;
+pro: Preposition; Ablative;
+prope: Preposition; Accusative;
+propter: Preposition; Accusative;
+saepe: Adverb;; Positive
+sed: Conjunction;; Adversative
+semper: Adverb;;
+sine: Preposition; Ablative;
+sub: Preposition; Accusative, Ablative;
+super: Preposition; Ablative;
+trans: Preposition; Accusative;
+tum: Adverb;; Positive

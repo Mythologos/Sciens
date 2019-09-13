@@ -1,0 +1,144 @@
+# This document contains the root dictionary for the system which I have built. Some words are currently
+# commented out due to their forms not being implemented or other special aspects concerning certain
+# terms not having been decided on their exact handling within the system yet.
+#
+# Author: Stephen Bothwell
+# Last Updated: 12/11/2018
+# Version Number: 0.0.7
+adulescenti: Noun; D1<Feminine>;
+am: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+amav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# amat-
+amic: Noun; D1<Feminine>, D2.1<Masculine>;
+anim: Noun; D1<Feminine>, D2.1<Masculine>;
+antiqu: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+avariti: Noun; D1<Feminine>;
+basi: Noun; D2.3<Neuter>;
+beat: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+bell: Noun, Adjective; D2.3<Neuter> | D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;|
+bon: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+cael: Noun; D2.3<Neuter>;
+caten: Noun; D1<Feminine>;
+cen: Noun, Verb; D1<Feminine> | C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>;| Accusative
+cenav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# cenat-
+clementi: Noun; D1<Feminine>;
+cogit: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative;
+cogitav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative;
+# cogitat-
+conserv: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative;
+conservav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative;
+# conservat-
+consili: Noun; D2.3<Neuter>;
+cre: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+crustul: Noun; D2.3<Neuter>;
+culp: Noun, Verb; D1<Feminine> | C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Objective Genitive | Accusative
+culpav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# culpat-
+cur: Noun; D1<Feminine>;
+d: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+# dat-
+deb: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+debu: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# debit-
+ded: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+deport: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+deportav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# deportat-
+don: Noun; D2.3<Neuter>;
+err: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<> Accusative;
+errav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<> Accusative;
+# errat-
+exiti: Noun; D2.3<Neuter>;
+fam: Noun; D1<Feminine>;
+femin: Noun; D1<Feminine>;
+# fili- ... irregular forms in the plural; may place in irregular dictionary
+form: Noun; D1<Feminine>;
+fortun: Noun; D1<Feminine>;
+glori: Noun; D1<Feminine>;
+human: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+immodic: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+infinit: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+insani: Adjective; D1<Feminine>;
+ir: Noun; D1<Feminine>;
+iuv: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+# iut-
+laud: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+laudav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# laudat-
+# lib- # -er adjectives?
+magist: Noun; D2.1<Masculine>;
+magistr: Noun; D1<Feminine>;
+magn: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+mal: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+man: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+mans: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+me: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+mon: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+monu: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# monit-
+mor: Noun; D1<Feminine>;
+mult: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+naut: Noun; D1<Masculine>;
+# nost- # ... -er adjectives?
+# null-
+numer: Noun; D2.1<Masculine>; Partitive Genitive
+ocul: Noun; D2.1<Masculine>;
+offici: Noun; D2.3<Neuter>;
+oner: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+oti: Noun; D2.3<Neuter>;
+parv: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+patri: Noun; D1<Feminine>;
+pecc: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+peccav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# peccat-
+pecuni: Noun; D1<Feminine>;
+pericul: Noun; D2.3<Neuter>;
+philosophi: Noun; D1<Feminine>;
+poen: Noun; D1<Feminine>;
+poet: Noun; D1<Masculine>;
+popul: Noun; D2.1<Masculine>;
+port: Noun; D1<Feminine>;
+puell: Noun; D1<Feminine>;
+# pulch- ... -er adjectives?
+recus: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative, Infinitive
+recusav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative, Infinitive
+# recusat-
+reman: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+remans: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+remedi: Noun; D2.3<Neuter>; Objective Genitive
+roman: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+ros: Noun; D1<Feminine>;
+rot: Noun; D1<Feminine>;
+saev: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+salv: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+san: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+sententi: Noun; D1<Feminine>;
+serv: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+servav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# servat-
+stult: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+super: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+superav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# superat-
+supplici: Noun; D2.3<Neuter>; Objective Genitive
+terr: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+terru: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# territ-
+tu: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+turb: Noun; D1<Feminine>;
+val: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>; Accusative
+valu: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# valitur-
+veni: Noun; D1<Feminine>;
+ver: Adjective; D1<Feminine>, D2.1<Masculine>, D2.3<Neuter>;
+verb: Noun; D2.3<Neuter>;
+vid: Verb; C2PresActInd<>, C2ImpfActInd<>, C2FutActInd<>, C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+vit: Noun; D1<Feminine>;
+# vis-
+voc: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+vocav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# vocat-
+vol: Verb; C1PresActInd<>, C1ImpfActInd<>, C1FutActInd<>; Accusative
+volav: Verb; C1PerfActInd<>, C1PlupActInd<>, C1FtPrfActInd<>; Accusative
+# volat-
