@@ -23,7 +23,7 @@ from Components.Paradigm import Paradigm, NominalParadigm, VerbalParadigm
 from Components.Word import *
 
 import nltk
-nltk.download('punkt')
+# If not already obtained, uncomment: nltk.download('punkt')
 
 
 class Sciens:
