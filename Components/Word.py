@@ -8,7 +8,7 @@ Author: Stephen Bothwell
 Version: 1.0.1
 Last Updated: 9/12/2019
 """
-from GrammaticalAttributes import *
+from .Enumerators.GrammaticalAttributes import *
 
 
 class Word:

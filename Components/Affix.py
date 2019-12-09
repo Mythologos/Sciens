@@ -8,7 +8,7 @@ Version: 1.0.1
 Last Updated: 9/12/2019
 """
 
-from GrammaticalAttributes import Case, Number, Person
+from .Enumerators.GrammaticalAttributes import Case, Number, Person
 
 
 class NominalAffix:

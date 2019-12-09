@@ -18,10 +18,12 @@ Last Updated: 9/12/2019
 from itertools import chain
 from typing import TextIO
 
+from Components.Affix import NominalAffix, VerbalAffix
+from Components.Paradigm import Paradigm, NominalParadigm, VerbalParadigm
+from Components.Word import *
+
 import nltk
-from Affix import NominalAffix, VerbalAffix
-from Paradigm import Paradigm, NominalParadigm, VerbalParadigm
-from Word import *
+nltk.download('punkt')
 
 
 class Sciens:

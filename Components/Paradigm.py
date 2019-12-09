@@ -8,7 +8,7 @@ Version: 1.0
 Last Updated: 9/12/2019
 """
 
-from GrammaticalAttributes import Construction, Gender, Mood, PartOfSpeech, Tense, Voice
+from .Enumerators.GrammaticalAttributes import Construction, Gender, Mood, PartOfSpeech, Tense, Voice
 
 
 class Paradigm:
